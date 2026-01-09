@@ -2,7 +2,7 @@ from hospital import hospital
 
 
 def test_hospital_success():
-    output = hospital("Alice", "Dr. Smith", "10/10/2026")
+    output = hospital("raju", "raja", "10/12/2026")
     assert output == (
         "Appointment booked successfully!\n"
         "Patient Name: Alice\n"
