@@ -1,5 +1,5 @@
 
-def vehicle_details(patientname, doctorname, time):
+def hospital(patientname, doctorname, time):
     result = (
         f"patientname: {patientname}\n"
         f"doctorname: {doctorname}\n"
@@ -10,4 +10,4 @@ def vehicle_details(patientname, doctorname, time):
 
 if __name__ == "__main__":
    
-    print(vehicle_details("raju", "raja", 10/2/2026))
+    print(hospital("raju", "raja", 10/2/2026))
