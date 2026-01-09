@@ -1,13 +1,13 @@
 
-def hospital(patientname, doctorname, time):
-    result = (
-        f"patientname: {patientname}\n"
-        f"doctorname: {doctorname}\n"
-        f"time: {time}
-    )
-    return result
+def hospital(patient, doctor, date):
+    doctors = ["Dr. Smith", "Dr. John", "Dr. Emily"]
 
-
-if __name__ == "__main__":
-   
-    print(hospital("raju", "raja", 10/2/2026))
+    if doctor in doctors:
+        return (
+            "Appointment booked successfully!\n"
+            "Patient Name: " + patient + "\n"
+            "Doctor: " + doctor + "\n"
+            "Date: " + date
+        )
+    else:
+        return "Doctor not available"
